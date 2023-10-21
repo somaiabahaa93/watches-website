@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Almarai', sans-serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif; */
+}
+
+nav 
+{
+    position:fixed !important;
+    width: 100%;
+    background-color: white!important;
+    padding-left: 150px;
+    z-index: 5555;
+    box-shadow: 5px 8px 8px #e5dcdc!important;
+}
+/* .navbar .navbar-brand
+{
+    padding-left: 150px !important;
+    margin-left: 150px !important;
+
+} */
+.nav-item
+{
+    transition: all 1s;
+}
+.nav-item:hover
+{
+background-color: rgb(241, 52, 52);
+transform: scale(1.1);
+}
+
+.select 
+{
+    /* font: 22px Arial; */
+    display: inline-block;
+    padding: 5em 5em;
+    text-align: center;
+    color: white;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, red 50%, rgb(95, 92, 92) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    border: 0;
+    border-radius: 5px;
+
+
+
+}
+
+.select:hover{
+
+    background-position: left;
+}
+
+.con 
+{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.overflow 
+{
+    overflow: hidden;
+}
+
+.sec2 img
+{
+transition: all .4s;
+
+}
+.sec2 img:hover
+{
+transform: scale(1.1);
+}
+
+.sec3 img
+{
+transition: all .4s;
+
+}
+.sec3 img:hover
+{
+transform: scale(1.1);
+filter: brightness(60%); 
+
+
+}
+.img-con
+{
+    position: relative ;
+
+}
+
+.overlay
+{
+    position: absolute;
+
+    width: 95%;
+    height: 15%;
+    background-color: rgb(227, 45, 45);
+    left: 0%;
+    right: 0%;
+    bottom: 20%;
+    opacity: 0;
+    transition: all .5s ;
+    margin: auto;
+  
+}
+.img-con:hover 
+{
+    .overlay {
+        opacity: .9;
+    }
+}
+
+.img-con i 
+{
+    position: absolute;
+    top: -400%;
+    right: 5%;
+    font-size: 30px;
+}
+
+
+.sec8 p
+{
+   color: gray; 
+  margin-top: 20px;
+}
+
+
+.sec8 h5
+{
+   color: black; 
+   font-weight: 600;
+}
+.new 
+{
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+}
